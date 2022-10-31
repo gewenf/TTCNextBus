@@ -1,0 +1,24 @@
+﻿.gridArea {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "map nextBus";
+    grid-gap: 10px;
+}
+
+.map {
+    grid-area: map;
+    text-align: center;
+    border: 1px solid grey;
+    height: 400px;
+}
+
+.nextBus {
+    grid-area: nextBus;
+    text-align: right;
+}
+
+.Note{
+    font-size:0.5em;
+    color:red;
+}
